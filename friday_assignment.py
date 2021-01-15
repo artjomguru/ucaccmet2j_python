@@ -49,7 +49,7 @@ for month in measurement_monthly_sum:
 results = precipitation_data.append(measurement_monthly_sum, measurement_sum, percentage, percentage_month)
 print(results)
 
-#Save a .json file (I'm not sure if that works or not)
+#Save a .json file (I'm not sure if that works or not.)
 # with open ('friday_assignment.json', 'w', encoding ='utf8') as file
 #     json.dump(measurement_monthly_sum)
 #     json.dump(percentage_month)

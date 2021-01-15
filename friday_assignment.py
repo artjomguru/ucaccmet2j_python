@@ -45,9 +45,14 @@ for month in measurement_monthly_sum:
     print(f'The relative precipitation over 12 months is {measurement_sum}')
     print(f'The yearly relative percentage of precepitation in each location is {percentage_month}')
 
-
+# shows reults in a list of dictionaries with new measurements/variables that we gained in parts 1-3
 results = precipitation_data.append(measurement_monthly_sum, measurement_sum, percentage, percentage_month)
 print(results)
+
+#Save a .json file (I'm not sure if that works or not)
+# with open ('friday_assignment.json', 'w', encoding ='utf8') as file
+#     json.dump(measurement_monthly_sum)
+#     json.dump(percentage_month)
 
 """
 Expected output:
